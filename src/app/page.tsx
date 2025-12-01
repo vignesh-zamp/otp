@@ -12,8 +12,8 @@ import { ShieldCheck } from 'lucide-react';
 export default function LoginPage() {
   const router = useRouter();
   const { toast } = useToast();
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('airbnb@kyriba.com');
+  const [password, setPassword] = useState('demo123');
   const [loading, setLoading] = useState(false);
 
   const handleLogin = (e: React.FormEvent) => {
