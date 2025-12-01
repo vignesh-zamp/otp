@@ -55,7 +55,7 @@ export default function AuthPage() {
       <CardContent className="space-y-6 text-center">
         <div className="bg-primary/20 rounded-lg p-6">
           <p className="text-5xl font-bold tracking-widest text-primary-foreground">
-            {otp !== null ? otp.toString().padStart(6, '0') : '------'}
+            {otp !== null ? otp.toString().padStart(4, '0') : '----'}
           </p>
         </div>
         <div className="space-y-2">
